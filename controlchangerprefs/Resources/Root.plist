@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Control Changer</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.ryannair05.controlchanger</string>
+			<key>key</key>
+			<string>originalGesture</string>
+			<key>label</key>
+			<string>Remove Original Gesture</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.ryannair05.controlchanger</string>
+			<key>key</key>
+			<string>swipePosition</string>
+			<key>label</key>
+			<string>Swipe Position</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>validValues</key>
+			<array>
+				<integer>1</integer>
+				<integer>0</integer>
+				<!-- <integer>2</integer>
+				<integer>3</integer> -->
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Bottom Left Corner</string>
+				<string>Bottom Right Corner</string>
+				<!-- <string>Top Left Corner</string>
+				<string>Top Right Corner</string> -->
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>isContinuous</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ryannair05.controlchanger</string>
+			<key>key</key>
+			<string>touchPoint</string>
+			<key>max</key>
+			<real>0.5</real>
+			<key>min</key>
+			<real>0</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Preferences</string>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+Package: com.ryannair05.controlchanger
+Name: ControlChanger
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Change control center gesture
+Maintainer: Ryan Nair
+Author: Ryan Nair
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
